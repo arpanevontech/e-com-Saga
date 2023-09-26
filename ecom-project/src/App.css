@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header-logo {
+  margin: 10;
+  justify-content: center;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  color: white;
+  font-family: serif;
+  border: 1px solid rgb(9, 135, 9);
+  border-radius: 60px;
+  font-size: 18px;
+  background-color: rgb(9, 135, 9);
+}
+
+.card-page-container {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex-direction: column;
+}
+.div-head-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.div-image-container {
+  width: 150px;
+}
+
+.table-container {
+  flex: 65%;
+  border-collapse: collapse;
+}
+
+.para-tag {
+  font-family: serif;
+  font-size: 20;
+  text-align: center;
+  color: seagreen;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+.product-details-container {
+  padding: 15px;
+  text-align: start;
+  font-size: 24px;
+  font-family: fangsong;
+  margin-left: 12px;
+}
+
+.row-container-header td {
+  border: 2px solid black;
+  padding: 12px;
+}
+.price-details {
+  flex: 35%;
+  margin: 30px 30px;
+}
+.price-details .adjust-price {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.price-details .adjust-price span {
+  font-size: 20px;
+}
+
+.div-one {
+  background-color: rgb(241, 230, 186);
+  padding: 10px;
+  color: rgb(8, 62, 8);
+  text-decoration-line: underline;
+  font-family: serif;
+  font-weight: bold;
+}
+/* header css style*/
+.header {
+  background-color: orange;
+  height: 100px;
+}
+
+.cart-div {
+  float: right;
+  margin: 25px;
+  position: relative;
+}
+
+.cart-div-img {
+  width: 45px;
+}
+
+.cart-div span {
+  position: absolute;
+  z-index: 5;
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: azure;
+  top: -34px;
+  right: -18px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.product-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.productlist-link {
+  font-weight: bold;
+  font-size: 14px;
+  float: left;
+  color: blue;
+  width: 100%;
+}
+
+.search-bar {
+  padding: 4px;
+  width: 100%;
+  height: 25px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+.div-search-container {
+  float: left;
+  width: 50%;
+  padding: 25px;
+  flex-direction: row;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
